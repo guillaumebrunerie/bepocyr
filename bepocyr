@@ -22,7 +22,7 @@ xkb_symbols "bepocyr" {
 
     include "fr(bepo)"
 
-    name[Group1]= "Russian (phonetic bepo)";
+    name[Group1]= "Cyrillic (phonetic, bepo)";
 
     // First row
     // key <AE11> { [        Cyrillic_e,        Cyrillic_E,                     equal,                      degree ] }; // э Э = °
@@ -66,4 +66,3 @@ xkb_symbols "bepocyr" {
     key <AB10> { [       Cyrillic_ef,       Cyrillic_EF,               dead_ogonek,                 ordfeminine ] }; // ф Ф ˛ ª
 
 };
-
